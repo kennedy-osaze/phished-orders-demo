@@ -115,4 +115,17 @@ return [
         ],
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Order "To" Address
+    |--------------------------------------------------------------------------
+    |
+    | Here, you may specify an address that is use to receive orders
+    | that are sent via the application.
+    |
+    */
+    'order_to' => [
+        'address' => env('MAIL_ORDER_TO_ADDRESS'),
+    ],
+
 ];
